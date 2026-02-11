@@ -40,14 +40,16 @@ Test a list of users against a password list:
 python3 ssh_spray.py <IP> -U users.txt -w passwords.txt -t 20
 ```
 
-Arguments
-Flag	Description
-target	Target IP address (e.g., 127.0.0.1)
--p, --port	Target port (Default: 22)
--u, --user	Single username to attack
--U, --userlist	File containing list of usernames
--w, --wordlist	File containing passwords
--t, --threads	Number of threads (Default: 10)
+### 🛠 Arguments
+
+| Flag | Description |
+| :--- | :--- |
+| `target` | Target IP address (e.g., 127.0.0.1) |
+| `-p`, `--port` | Target port (Default: 22) |
+| `-u`, `--user` | Single username to attack |
+| `-U`, `--userlist` | File containing list of usernames |
+| `-w`, `--wordlist` | File containing passwords |
+| `-t`, `--threads` | Number of threads (Default: 10) |
 
 ⚠️ Disclaimer
 
