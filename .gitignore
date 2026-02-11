@@ -1,0 +1,14 @@
+
+hacked.txt
+scan_results.txt
+
+
+__pycache__/
+*.pyc
+
+
+pass.txt
+users.txt
+wordlist.txt
+
+.vscode/
